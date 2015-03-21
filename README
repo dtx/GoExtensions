@@ -1,0 +1,9 @@
+(A) Run ./setup.sh, this will setup the GOPATH to this project
+
+(B) Build package: Go the package in src and run go build
+
+(C) Install Package: Go to the package in src and run go install
+
+If you do not want to edit your default GOPATH then do not run (A),
+upon such a setup your installations will get put to your $GOPATH/bin
+or $GOROOT/bin depending on your setup.
